@@ -3,10 +3,10 @@ class Hero
 
   @@all = []
 
-  def initialize(args)
-    @name = args[:name]
-    @power = args[:power]
-    @bio = args[:bio]
+  def initialize(params)
+    @name = params[:name]
+    @power = params[:power]
+    @bio = params[:bio]
 
     @@all << self
   end
